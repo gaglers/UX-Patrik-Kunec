@@ -1,0 +1,35 @@
+.Card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+    width: 230px;
+    height: 230px;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    font-family: "Scope One";
+    box-shadow: 0px 3px 10px 0.1px black;
+    transition: 0.2s;
+    animation: appear 0.1s ease-in;
+}
+
+
+.Card:hover{
+    background-color: rgb(110, 44, 161);
+    h2{
+        color: white;
+    }
+    img{
+        scale: 1.1;
+        box-shadow: 0px 230px rgb(45, 6, 53) inset;
+        border-radius: 12px;
+    }
+}
+
+
+@keyframes appear{
+    0% {scale : 0};
+    100% {scale : 1};
+}

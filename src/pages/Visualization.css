@@ -1,0 +1,32 @@
+.Visualization{
+    display: flex;
+    margin-top: 6px;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    max-height: auto;
+    background: linear-gradient(black,#241B2D);
+}
+
+.Visualization-Buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.Vizualization-Section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    width: 280px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #513897;
+}

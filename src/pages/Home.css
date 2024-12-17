@@ -1,0 +1,41 @@
+.react-aria-SearchField {
+    display: grid;
+    grid-template-areas: "label label"
+                         "input button"
+                         "help  help";
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    width: fit-content;
+  }
+  
+  .react-aria-Button{
+    grid-area: button;
+  }
+  
+  .react-aria-Input{
+    grid-area: input;
+    border-radius: 8px;
+    border: 3px solid rgb(234, 179, 8);
+    padding: 5px;
+    padding-left: 14px;
+    width: 300px;
+    font-size: 0.9rem;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    &[data-focused] {
+      outline: 1px solid rgb(197, 23, 255);
+      outline-offset: -1px;
+    }
+  }
+
+.Card-Container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    align-content: baseline;
+    width: 85%;
+    height: 95%;
+    padding: 20px;
+    gap: 60px;
+}

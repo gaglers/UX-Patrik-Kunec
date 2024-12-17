@@ -1,0 +1,17 @@
+.Comparative-Visualization-Section{
+    width: 300px;
+    color: white;
+    font-size: 24px;
+}
+.Comparative-Pseudocode{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 95%;
+    height: 200px;
+    font-size: 20px;
+    border-radius: 12px;
+    background-color: #18141B;
+    margin-bottom: 25px;
+}
